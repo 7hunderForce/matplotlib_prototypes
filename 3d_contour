@@ -11,7 +11,8 @@ y = np.linspace(-15, 15, 100)
 X, Y = np.meshgrid(x, y)
 Z = np.sin(X) + np.cos(Y)
 
-ax.contour3D(X, Y, Z, 100, cmap = 'viridis')
+contour_weight = 100 # 0 to 100
+ax.contour3D(X, Y, Z, contour_weight, cmap = 'viridis')
 
 ax.set_xlabel('x')
 ax.set_ylabel('y')
