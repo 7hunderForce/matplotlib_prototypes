@@ -1,12 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-fig = plt.figure('3D Points', figsize=(9, 6))
-ax = plt.axes(projection = '3d')
-
 xdata = 7 * np.random.random(100)
 ydata = np.sin(xdata) + 0.25 * np.random.random(100)
 zdata = np.cos(xdata) + 0.25 * np.random.random(100)
+
+fig = plt.figure('3D Points', figsize=(9, 6))
+ax = plt.axes(projection = '3d')
 
 ax.scatter3D(xdata, ydata, zdata)
 
