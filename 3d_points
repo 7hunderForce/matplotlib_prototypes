@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-fig = plt.figure('3D Analysis', figsize=(9, 6))
+fig = plt.figure('3D Points', figsize=(9, 6))
 ax = plt.axes(projection = '3d')
 
 xdata = 7 * np.random.random(100)
