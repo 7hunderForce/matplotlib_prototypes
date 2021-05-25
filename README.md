@@ -1,4 +1,4 @@
-MatPlotLib Prototypes
+**MatPlotLib Prototypes**
 
 Examples:
 - 3D Points
